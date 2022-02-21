@@ -1,0 +1,22 @@
+{
+  "name": "csobp-frontend-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krajcot/csobp-frontend-cypress.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krajcot/csobp-frontend-cypress/issues"
+  },
+  "homepage": "https://github.com/krajcot/csobp-frontend-cypress#readme",
+  "dependencies": {
+    "cypress": "^8.0.0"
+  }
+}

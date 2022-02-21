@@ -1,0 +1,7 @@
+{
+    "ignoreTestFiles": "integration/2-advanced-examples/*.*",
+    "viewportHeight": 1200,
+    "viewportWidth": 1200,
+    "chromeWebSecurity": false,
+    "projectId": "5gufec"
+}
