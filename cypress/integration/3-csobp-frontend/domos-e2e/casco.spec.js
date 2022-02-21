@@ -29,11 +29,16 @@ describe('ins-events', () => {
 
         cy.get('[formcontrolname="damageEventDescription"] textarea').type(`Lorem ipsum dolor sit amet consectetur ...`);
 
+        cy.get('[formcontrolname="damageMyVehicle"] > .noselect').click();
+        // tu pokracujeme
+
+
         cy.pause();
-        
+
         // Pokracovat
         cy.get('button').contains('Pokračovať').click();
 
+        /*
         cy.wait(2000);
 
         cy.get('[formcontrolname="firstName"]').type('Tomáš')
@@ -54,7 +59,7 @@ describe('ins-events', () => {
 
         // Pokracovat
         cy.get('button').contains('Pokračovať').click();
-
+        */
         // cy.pause();
         cy.confirmRecaptcha();
         // cy.get('.recaptcha-checkbox').click();
